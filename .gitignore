@@ -1,1 +1,50 @@
+# Virtual Environments
+.venv/
+venv/
+venv_*/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
 .env
+.env.*
+!.env.example
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs & Code Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Distribution & Build Artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing & Profiling
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# Misc
+skills
