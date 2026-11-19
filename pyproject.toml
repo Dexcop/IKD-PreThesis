@@ -1,0 +1,15 @@
+[project]
+name = "ikd-prethesis"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "emoji>=2.16.0",
+    "google-play-scraper>=1.2.7",
+    "numpy>=2.4.6",
+    "optuna>=5.0.0",
+    "pandas>=3.1.1",
+    "pysastrawi>=1.2.1",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "supabase>=2.34.0",
+]
